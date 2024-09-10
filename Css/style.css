@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.top_section{
+    height: 500px;
+    background-color: red;
+    width: 100%;   
+}
+.template{
+    width: 1000px;
+    margin: auto;
+}
+.top_header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    align-items: center;
+}
+.logo{
+    color: aliceblue;
+}
+.navbar{
+    
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: none;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.social_icon{
+    
+}
+.social_icon i{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+}
