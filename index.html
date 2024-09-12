@@ -4,28 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Template</title>
-    <link rel="stylesheet" href="Css/style.css">
+    <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css" integrity="sha512-B46MVOJpI6RBsdcU307elYeStF2JKT87SsHZfRSkjVi4/iZ3912zXi45X5/CBr/GbCyLx6M1GQtTKYRd52Jxgw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Bootstrap CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- Owl Crausel cdn css link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="top_section">
-        <div class="top_header">
-            <div class="logo">
-                <h1>KFC</h1>
+    <div class="template">
+        <div class="top_section">
+            <div class="top_header">
+                <div class="logo">
+                    <h1>Welcome to Aapka KFC</h1>
+                </div>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Find Us</a></li>
+                        <li><a href="#">All Campaions</a></li>
+                    </ul>
+                </div>
+                <div class="social_icon">
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
             </div>
-            <div class="navbar">
-                <ul>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Find us</a></li>
-                    <li><a href="#">All Campaions</a></li>
-                </ul>
+            <div class="slide_banner">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="item">
+                            <div class="item_left">
+                                <h1>A Culinary Experience Awaits</h1>
+                                <p>Whether you're celebrating a special occasion or enjoying a casual meal, our inviting atmosphere and attentive service provide the ideal setting. Join us for an exceptional dining experience today!</p>
+                                <button>Order Now</button>
+                            </div>
+                            <div class="item_right">
+                                <img src="a.jpg" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="item">
+                            <div class="item_left">
+                                <h1>Where Every Meal is a Masterpiece</h1>
+                                <p>Welcome to our restaurant, where every dish is crafted with fresh, local ingredients. Enjoy a unique dining experience that blends tradition with modern flavors, ensuring unforgettable moments with every bite.</p>
+                                <button>Order Now</button>
+                            </div>
+                            <div class="item_right">
+                                <img src="b.jpg" alt="">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="carousel-item">
+                          <div class="item">
+                              <div class="item_left">
+                                  <h1>Fresh, Local, Delicious</h1>
+                                  <p>Our chefs are passionate about creating culinary masterpieces. From starters to desserts, each plate reflects creativity and skill, offering a perfect balance of taste, texture, and presentation.</p>
+                                  <button>Order Now</button>
+                              </div>
+                              <div class="item_right">
+                                  <img src="c.jpg" alt="">
+                              </div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </div>
-            <div class="social_icon">
-                <i class="fa-solid fa-user"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-            </div>
-        </div>
+        </div> 
     </div>
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>

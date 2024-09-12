@@ -2,25 +2,24 @@
     padding: 0;
     margin: 0;
 }
-
+.template{
+    width: 1000px;
+    margin: 0 auto;
+}
 .top_section{
     height: 500px;
     background-color: red;
-    width: 100%;   
-}
-.template{
-    width: 1000px;
-    margin: auto;
+    width: 100%;
 }
 .top_header{
     height: 60px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around ;
+    justify-content: space-around;
     align-items: center;
 }
 .logo{
-    color: aliceblue;
+    color: rgb(238, 232, 232);
 }
 .navbar{
     
@@ -28,21 +27,69 @@
 .navbar ul{
     display: flex;
     flex-direction: row;
-    justify-content: none;
+    justify-content: space-around;
 }
 .navbar ul li{
-    list-style: none;
+    list-style: none;   
     margin-left: 20px;
+
 }
 .navbar ul li a{
     color: white;
     text-decoration: none;
 }
-.social_icon{
-    
-}
+.social_icon{}
 .social_icon i{
-    color: white;
+    color: rgb(240, 235, 235);
     font-size: 30px;
     margin-left: 10px;
 }
+
+.slide_banner{
+    background-color: rgb(246, 9, 21);
+}
+
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.item_left{
+
+}
+.item_left h1{
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}
+.item_left p{
+    color: wheat;
+    text-align: justify;
+    padding: 20px;
+}
+.item_left button{
+    background-color: brown;
+    color: white;
+    border: 2px solid gainsboro;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.item_right{
+}
+.item_right img{
+    height: 350px;
+    width: 90%;
+}
+.carousel_item{
+    margin-top: 20px;
+}
+
+.carousel-indicators button{
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 100% !important;
+
+}
+
